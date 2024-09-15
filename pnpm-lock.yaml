@@ -8,6 +8,9 @@ dependencies:
   core-js:
     specifier: ^3.8.3
     version: 3.34.0
+  mitt:
+    specifier: ^3.0.1
+    version: 3.0.1
   vue:
     specifier: ^3.2.13
     version: 3.3.11
@@ -4455,6 +4458,10 @@ packages:
     dependencies:
       yallist: 4.0.0
     dev: true
+
+  /mitt@3.0.1:
+    resolution: {integrity: sha512-vKivATfr97l2/QBCYAkXYDbrIWPM2IIKEl7YPhjCvKlG3kE2gm+uBo6nEXK3M5/Ffh/FLpKExzOQ3JJoJGFKBw==, tarball: https://registry.npmmirror.com/mitt/-/mitt-3.0.1.tgz}
+    dev: false
 
   /mkdirp@0.5.6:
     resolution: {integrity: sha512-FP+p8RB8OWpF3YZBCrP5gtADmtXApB5AMLn+vdyA+PyxCjrCs00mjyUozssO33cwDeT3wNGdLxJ5M//YqtHAJw==, tarball: https://registry.npmmirror.com/mkdirp/-/mkdirp-0.5.6.tgz}
