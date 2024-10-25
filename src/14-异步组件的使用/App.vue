@@ -44,6 +44,7 @@ import Home from "./components/Home.vue";
 import About from "./components/About.vue";
 // import Category from "./components/Category.vue";
 // 默认返回一个promise对象,promise对象不能作为一个组件
+// 懒加载（延迟加载）指定路径的 Category.vue 组件，从而实现按需加载，优化性能。
 // const Category = import("./components/Category.vue")
 
 const AsyncCategory = defineAsyncComponent(() => import("./components/Category.vue"))
